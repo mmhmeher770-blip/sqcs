@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQCS - Smart Quality Control System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 2px solid #0056b3;
+        }
+        h1 {
+            font-size: 24px;
+            color: #0056b3;
+            margin: 5px 0;
+        }
+        p {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .input-group {
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        .input-group label {
+            font-size: 12px;
+            color: #333;
+            font-weight: bold;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+        .login-btn {
+            background-color: #f0ad4e;
+            color: white;
+            border: none;
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .login-btn:hover {
+            background-color: #ec971f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-card">
+        <!-- আপনার প্রফাইল ছবি বা লোগো -->
+        <h2>SQCS</h2>
+        <p>Smart Quality Control System for Walker Footwear</p>
+        
+        <div class="input-group">
+            <label>Username / ID</label>
+            <input type="text" placeholder="Enter your ID">
+        </div>
+        
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" placeholder="Enter password">
+        </div>
+
+        <button class="login-btn" onclick="alert('Login Successful!')">LOGIN</button>
+    </div>
+
+</body>
+</html>
